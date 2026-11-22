@@ -95,3 +95,7 @@ python -B -X utf8 paper_snapshot/build_appendix.py
 
 本次以通用Deflate ZIP格式打包，并逐项核对解压内容。当前环境没有WinRAR，未调用GUI；规范中“使用WinRAR软件”的指定工具步骤未在本机执行。ZIP可由WinRAR读取。如需逐字遵循指定压缩软件条款，可在WinRAR中对本目录重新压缩，保持文件内容和目录结构即可。
 
+## 许可
+
+本包内原创源码采用 MIT 许可证，见同目录的 LICENSE。论文、竞赛日志和外部数据按各自的权利说明提供查阅。
+
