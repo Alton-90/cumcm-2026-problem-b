@@ -1,0 +1,40 @@
+{
+  "version": "q3_final_strict84_v1_20260912",
+  "method_id": "q3_final_strict84",
+  "parameters": {
+    "move_slack_m": 175.0,
+    "minimum_predicted_saving_s": 0.0,
+    "offset_scale": 0.5,
+    "offset_factors": [
+      0.05,
+      0.125,
+      0.25
+    ],
+    "backoffs": [
+      0.25,
+      0.5
+    ],
+    "maximum_hypotheses": 9,
+    "guaranteed_reception_guard_m": 999.9,
+    "bias_hypotheses_deg": [
+      -1.0,
+      0.0,
+      1.0
+    ]
+  },
+  "policy_sources": {
+    "code/Q3/python/q3_final_baseline.py": "d1432b23ca8a9baca30c3c18ee78508c1f6f952fdbd35779efbd996f92a58217",
+    "code/Q3/python/q3_final_main.py": "651d5be950f4a1273ee377e4114997a7c5dfb5cb0218da284b400ed22431dedc",
+    "code/shared/q3_cost_rollout_v2.py": "604602017d8b611059abfb7d86619ec4f7dc724780e6bcc30cb65f36dbcb1d30",
+    "code/shared/route_multistart.py": "019ecd2d14dfd30789f5ef0e582c16a3e07aa2bedcb7676abf893a2ced19eb27",
+    "code/shared/search_policy.py": "c144247b7a85ccbb42284f06d79fae2874b8ae80cff517921f3e2ad22369ac15",
+    "code/shared/search_policy_compact.py": "55b88eeefefa244581bc8707593fa784d2e0f1d6ded41bf590af0ad4692c579f",
+    "code/shared/search_policy_feasible_q3.py": "46a8f3880ae831846f81ec226398a0d7060cbf94e7a3a7f5fb1ce51a37052e91",
+    "code/shared/search_policy_q3_combined.py": "b70898f273ac0261e46fb2812d0380a218e0343364c915820c9ac04375ca41ab",
+    "code/shared/search_policy_q3_cost_rollout_strict84_selected.py": "4cfc0c645f8c244325e5dbfc818b187d9b51baadc9b00139656966a14e85d3c8",
+    "code/shared/search_policy_q3_cost_rollout_v2.py": "15c5248eed47be92538b8c25ae7db8c9553f984739ab7475b6c69751ef39c418",
+    "code/shared/search_policy_recovery.py": "3a62f32dfbcf7b33c2b24d8743ba8ba39af85f3b5e79ddd798309660afae09df"
+  },
+  "baseline_method": "q3_final_combined_control",
+  "causal_boundary": "Only public measurement/clear feedback and virtual time; one serial policy per process."
+}

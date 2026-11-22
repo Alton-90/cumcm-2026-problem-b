@@ -1,0 +1,39 @@
+{
+  "status": "FINAL_USER_SELECTED",
+  "model": "J06 plus free per-channel task deletion",
+  "authorization": "把这个模型定为现在的最终版",
+  "step_fraction": 0.25,
+  "alpha": 3,
+  "beta": 6,
+  "exit_weight": 0,
+  "local_measurement_limit": 8,
+  "extra_measurements": 0,
+  "max_source_reception_radius_m": 1500,
+  "range_margin_m": 1e-06,
+  "inputs": [
+    {
+      "path": "code/Q4/python/q4_free_tasks_v1/selected_entry.py",
+      "sha256": "39311e093c60e19b3500deda4ba873451a26631baa117ace0254b4dbe01cac43"
+    },
+    {
+      "path": "code/Q4/python/q4_free_tasks_v1/candidate_entry.py",
+      "sha256": "45ea1e50cbb6c14f4dcde910610cc925b4602cc3816de8aae5d1a9443aec9bc0"
+    },
+    {
+      "path": "code/Q4/python/q4_free_tasks_v1/candidate_parameters.json",
+      "sha256": "5245d9f77929a2308b4c763f4f811429b5d1212bd99a506f3a7c8ac4bdc436d1"
+    },
+    {
+      "path": "results/Q4/practice/FREE_tasks_fifteen_20260913/complete.json",
+      "sha256": "0228aeb817c7cc717e03a1c936c036a7d1b15214b2e453d890be31bf22dfb2e8"
+    },
+    {
+      "path": "results/Q4/practice/FREE_tasks_fifteen_20260913/audit.json",
+      "sha256": "7f332e2d87f957effd28a81ebf3aa88908e91c08823ed439930096b463095beb"
+    },
+    {
+      "path": "results/Q4/practice/FREE_tasks_fifteen_20260913/summary_statistics.json",
+      "sha256": "774ab95068eeb514b6c1c89ccfe898a3c9112397a3083dedfe4637d0cc0de14f"
+    }
+  ]
+}
